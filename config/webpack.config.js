@@ -327,8 +327,8 @@ module.exports = function (webpackEnv) {
         'react-dom': path.resolve(__dirname, '../src/react/packages/react-dom'),
         'shared': path.resolve(__dirname, '../src/react/packages/shared'),
         'react-reconciler': path.resolve(__dirname, '../src/react/packages/react-reconciler'),
-        "legacy-events": path.resolve(__dirname, "../src/react/packages/legacy-events"),
-        // 'react-events': path.resolve(__dirname, '../src/react/packages/events'),
+        // "legacy-events": path.resolve(__dirname, "../src/react/packages/legacy-events"),
+        'react-events': path.resolve(__dirname, '../src/react/packages/events'),
         // scheduler: path.resolve(__dirname, "../src/react/packages/scheduler"),
       },
       plugins: [
